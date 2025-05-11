@@ -13,15 +13,17 @@
   .container {
     display: grid;
     grid-template-columns: 250px 1fr 300px;
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: auto auto 1fr auto;
     grid-template-areas:
       "sidebar header header"
       "sidebar top-bar top-bar"
-      "sidebar projects announcements";
+      "sidebar projects announcements"
+      "sidebar projects trending";
     height: 100vh;
     gap: 10px;
     padding: 10px;
   }
+  
   
   /* Placeholder styling */
   .sidebar {
