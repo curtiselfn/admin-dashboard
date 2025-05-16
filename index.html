@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Dashboard</h2>
-            <ul>
-              <li>🏠 Home</li>
-              <li>👤 Profile</li>
-              <li>✉️ Messages</li>
-              <li>⏰ History</li>
-              <li>📄 Tasks</li>
-              <li>📊 Communities</li>
-            </ul>
-            <ul>
-              <li>⚙️ Settings</li>
-              <li>❓ Support</li>
-              <li>🔒 Privacy</li>
-            </ul>
-          </aside>
-          
-          <header class="header">
-            <input type="text" placeholder="Search..." />
-            <div class="user-info">
-              <span>🔔</span>
-              <span>John Doe</span>
-              <img src="#" alt="Avatar" width="30" height="30" />
-            </div>
-          </header>
-          
-          <div class="top-bar">
-            <div>
-              <p>Hi there,</p>
-              <h2>John Doe (@johndoe)</h2>
-            </div>
-            <div class="actions">
-              <button>New</button>
-              <button>Upload</button>
-              <button>Share</button>
-            </div>
-          </div>
-          
-          <main class="projects">
-            <div class="card">Project 1</div>
-            <div class="card">Project 2</div>
-            <div class="card">Project 3</div>
-            <div class="card">Project 4</div>
-            <div class="card">Project 5</div>
-            <div class="card">Project 6</div>
-          </main>
-          
-          <section class="announcements">
-            <div class="announcement">Site Maintenance</div>
-            <div class="announcement">Community Share Day</div>
-            <div class="announcement">Updated Privacy Policy</div>
-          </section>
-          
-          <section class="trending">
-            <div class="user">@tegan</div>
-            <div class="user">@morgan</div>
-            <div class="user">@kendall</div>
-            <div class="user">@alex</div>
-          </section>
-          
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2 class="logo">Dashboard</h2>
+      <nav class="main-nav">
+        <ul>
+          <li>🏠 Home</li>
+          <li>👤 Profile</li>
+          <li>✉️ Messages</li>
+          <li>⏰ History</li>
+          <li>📄 Tasks</li>
+          <li>📊 Communities</li>
+        </ul>
+
+        <ul>
+          <li>⚙️ Settings</li>
+          <li>❓ Support</li>
+          <li>🔒 Privacy</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <header class="header">
+      <div class="header-top">
+        <div class="search">
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div class="profile">
+          <span class="notification">🔔</span>
+          <img src="https://i.pravatar.cc/40" alt="User avatar" class="avatar">
+          <span class="username">Morgan Oakley</span>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="greeting">
+          <p class="small-text">Hi there,</p>
+          <p class="name">Morgan Oakley (@morgan)</p>
+        </div>
+        <div class="actions">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="projects">
+      <div class="card">Project 1</div>
+      <div class="card">Project 2</div>
+      <div class="card">Project 3</div>
+      <div class="card">Project 4</div>
+      <div class="card">Project 5</div>
+      <div class="card">Project 6</div>
+    </main>
+
+    <section class="announcements">
+      <div class="announcement">Site Maintenance</div>
+      <div class="announcement">Community Share Day</div>
+      <div class="announcement">Updated Privacy Policy</div>
+    </section>
+
+    <section class="trending">
+      <div class="user">@tegan</div>
+      <div class="user">@morgan</div>
+      <div class="user">@kendall</div>
+      <div class="user">@alex</div>
+    </section>
+
+  </div>
+</body>
+
 </html>
